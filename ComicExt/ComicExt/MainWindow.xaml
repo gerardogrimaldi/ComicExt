@@ -1,0 +1,14 @@
+﻿<Window x:Class="ComicExt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ComicExt" Height="350" Width="525" ResizeMode="NoResize" Icon="ComicBunch.ico">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="87,119,0,0" TextWrapping="Wrap" x:Name="textBoxFileName" Text="Folder to read..." VerticalAlignment="Top" Width="216"/>
+        <Button Content="Extract" HorizontalAlignment="Left" Margin="349,120,0,0" VerticalAlignment="Top" Width="75" Click="ButtonOk_Click"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="312,120,0,0" VerticalAlignment="Top" Width="32"/>
+        <Label x:Name="toolStripStatusLabel1" Content="" HorizontalAlignment="Left" Margin="102,166,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="cbzazip" Content="CBZ --&gt; ZIP" HorizontalAlignment="Left" Margin="131,225,0,0" VerticalAlignment="Top" Width="75" Click="cbzazip_Click"/>
+        <Button x:Name="zipacbz" Content="ZIP --&gt; CBZ" HorizontalAlignment="Left" Margin="301,225,0,0" VerticalAlignment="Top" Width="75" Click="zipacbz_Click"/>
+
+    </Grid>
+</Window>
